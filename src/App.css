@@ -1,0 +1,41 @@
+.app{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  max-height: 100%;
+
+}
+.app-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.login-body{
+  display: flex;
+  flex-direction: column;
+}
+.login-heading{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: -30px;
+}
+.login-button{
+  border: none;
+  outline: none;
+  width: 50%;
+  height: 90px;
+  background-color: orangered;
+  color: white;
+  border-radius: 19px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.login-button:hover{
+  background-color: black;
+  border: 1px solid orangered;
+}
